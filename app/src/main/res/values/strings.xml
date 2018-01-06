@@ -1,0 +1,65 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_name">RSR</string>
+    <string name="main_activity_name">RSR Revalidatieservice</string>
+    <string name="rsr_activity_name">RSR Pechhulp</string>
+    <string name="about_rsr_activity_name">Over RSR</string>
+
+    <!-- Error message when there is no internet connectivity [CHAR LIMIT=NONE] -->
+    <string name="no_internet_connection"><b>Geen internetverbinding</b>
+        \nEr is geen verbinding mogelijk met het internet.
+    Hierdoor kunnen uw locatiegegevens niet worden opgehaald.</string>
+
+    <!-- Dialog button text for the option to confirm open device Settings menu  [CHAR LIMIT=20] -->
+    <string name="ok">OK</string>
+
+    <!-- Dialog button text for the option to close the app [CHAR LIMIT=20] -->
+    <string name="cancel">Annuleren</string>
+
+    <!-- Dialog button text for the option to Goto Settings Page To Enable GPS [CHAR LIMIT=20] -->
+    <string name="settings">Instellingen</string>
+    <string name="annuleren">Annuleren</string>
+    <string name="no_gps_message"><b>Locatieservices uitgeschakeld</b> \nRSR pechhulp heeft toegang tot uw
+        \n locatie nodig. Schakel locatietoegang in.</string>
+    <string name="go_back_button_pressed">Wilt u terugkeren naar het vorige scherm?</string>
+    <string name="yes">Ja</string>
+    <string name="no">Nee</string>
+    <string name="about">Over RSR</string>
+    <string name="belRsrNu">Bel RSR nu</string>
+    <string name="belRsr">Bel nu</string>
+    <string name="contactRsr">Contact RSR</string>
+    <string name="rsrContacts"><b>RSR contacten \nTel: 09007788990</b></string>
+    <string name="rsr_tel_number">0900\-7788990</string>
+    <string name="neem_contact">Neem contact op met RSR Nederland</string>
+    <string name="belkosten_title">Belkosten</string>
+    <string name="belkosten">Voor dit nummer betaalt u uw gebruikelijke belkosten.</string>
+    <string name="contacts"><b>Silvode</b> \nPrins Bernhardstraat 63 \n7064 GD
+        \n\n<b>Nieuwleusen</b> \nRollecate 49 \n7711 GG
+        \n\n<b>Winschoten</b> \nPapierbaan 49 \n9672 BG</string>
+
+    <string name="no_geocoder_available">Geen Geocoder beschikbaar</string>
+    <string name="address_found" tools:ignore="Typos">Adres gevonden!</string>
+    <string name="no_address_found" tools:ignore="Typos">Sorry, geen adres gevonden.</string>
+    <string name="no_location_data_provided">Geen locatiegegevens verstrekt.</string>
+    <string name="service_not_available">Sorry, de service is niet beschikbaar.</string>
+    <string name="invalid_lat_long_used">Ongeldige lengte- of breedtegraad gebruikt.</string>
+    <string name="permission_title">Locatie toestemming vereist</string>
+    <string name="permission_text">Deze app heeft de locatietoestemming nodig. Accepteer om de
+        locatiefunctionaliteit te gebruiken</string>
+    <string name="permission_denied_explanation">Toestemming werd geweigerd, maar is nodig voor
+        kernfunctionaliteit.</string>
+    <string name="your_location">Uw Locatie:</string>
+    <string name="remember_location">Onthoud deze locatie voor het \n telefoongesprek.</string>
+    <!-- Info text -->
+    <string name="main_info">Met de hulpmiddelen van RSR blijft u mobiel. RSR is d\u00E9 leverancier
+        van hulpmiddelen in de regio Noordoost-Nederland. Gedegen kennis en
+        jarenlange ervaring zit in ons. DNA verweven en leidt tot beste advies.
+        \n
+        \nWilt u meer weten over onze pruducten en diensten, kijk dan op
+        <a href="www.rsr.nl">www.rsr.nl</a> of bezoek onze showrooms zijn gevestigd in Silvolde,
+        Nieuwleusen en Winschoten. Elke werkdag zijn wij geopend van 08.00 tot 17.00 uur.</string>
+    <string name="info_on_map">Klik hier om de contactgegevens van de showrooms te zien.</string>
+    <string name="info_text">Hier kunt u diverse hulpmiddelen uitproberen en rustig bekijken wat
+        goed bij uw situatie aansluit.
+    Samen met u zoeken we naar het hulpmiddel dat bij u past. RSR maakt mensen mobiel.</string>
+    <string name="rsr_phone">+319007788990</string>
+</resources>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Primary theme color of the app (sets background color of app bar) -->
+    <color name="colorPrimary">#3895b7</color>
+    <color name="colorPrimaryDark">#000000</color>
+    <color name="colorAccent">#0d47a1</color>
+    <color name="line">#5b7eb9</color>
+    <color name="splash">#ffffff</color>
+    <color name="layout_background">#f4c9ec00</color>
+    <color name="layout_transparent_background">#bf3895b7</color>
+    <color name="popup_transparent_background">#e0bbdc00</color>
+</resources>

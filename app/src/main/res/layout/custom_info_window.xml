@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/linear_layout_main_window"
+    android:background="@drawable/popup_bg">
+
+    <LinearLayout
+        style="@style/linear_layout_window"
+        android:layout_width="@dimen/curr_window_width">
+
+        <TextView
+            android:id="@+id/title"
+            style="@style/text_title" />
+
+        <TextView
+            android:id="@+id/snippet"
+            style="@style/text_snippet" />
+
+        <TextView
+            android:id="@+id/remember_text"
+            style="@style/text_remember" />
+
+    </LinearLayout>
+</LinearLayout>

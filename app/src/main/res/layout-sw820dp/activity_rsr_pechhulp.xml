@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="@style/relative_layout"
+    tools:context="info.geostage.rsr.RsrPechhulpActivity">
+
+    <fragment xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/map"
+        android:name="com.google.android.gms.maps.MapFragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    </fragment>
+
+    <RelativeLayout
+        android:id="@+id/map_screen_layout"
+        style="@style/relative_layout">
+
+        <View style="@style/horizontal_line" />
+
+        <ImageView
+            android:id="@+id/imgMyLocation"
+            android:layout_width="@dimen/button_margin"
+            android:layout_height="@dimen/button_margin"
+            android:layout_centerInParent="true"
+            android:src="@drawable/clock_mini"
+            tools:ignore="ContentDescription" />
+
+        <LinearLayout
+            android:id="@+id/rsrContactLayout"
+            style="@style/rsrContactLayout"
+            android:background="@color/layout_transparent_background">
+
+            <TextView
+                android:id="@+id/contactTextTitle"
+                style="@style/text_title"
+                android:paddingTop="@dimen/padding"
+                android:text="@string/neem_contact" />
+
+            <TextView
+                android:id="@+id/contactTextPhone"
+                style="@style/text_snippet"
+                android:drawableLeft="@drawable/main_btn_tel"
+                android:drawableStart="@drawable/main_btn_tel"
+                android:padding="@dimen/half_horizontal_margin"
+                android:text="@string/rsr_tel_number" />
+
+            <TextView
+                android:id="@+id/contactTextRemember"
+                style="@style/text_remember"
+                android:paddingBottom="@dimen/padding"
+                android:text="@string/belkosten" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/closePopUpButtonLayout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/belRsrButtonLayout"
+            android:layout_alignLeft="@+id/belRsrButtonLayout"
+            android:layout_alignStart="@+id/belRsrButtonLayout"
+            android:background="@color/colorPrimary">
+
+            <TextView
+                android:id="@+id/closePopUpButton"
+                style="@style/text_remember"
+                android:layout_gravity="center_horizontal"
+                android:drawableLeft="@drawable/main_btn_close"
+                android:drawablePadding="@dimen/half_horizontal_margin"
+                android:drawableStart="@drawable/main_btn_close"
+                android:padding="@dimen/half_horizontal_margin"
+                android:text="@string/annuleren" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/belRsrButtonLayout"
+            style="@style/linear_layout_popup">
+
+            <TextView
+                android:id="@+id/belkostenTitle"
+                style="@style/text_title"
+                android:paddingTop="@dimen/padding"
+                android:text="@string/belkosten_title" />
+
+            <TextView
+                android:id="@+id/belkosten"
+                style="@style/text_snippet"
+                android:padding="@dimen/padding"
+                android:text="@string/belkosten" />
+
+            <Button
+                android:id="@+id/belRsrButton"
+                style="@style/rsrButton"
+                android:drawableLeft="@drawable/main_btn_tel"
+                android:drawableStart="@drawable/main_btn_tel"
+                android:text="@string/belRsrNu" />
+
+        </LinearLayout>
+    </RelativeLayout>
+</RelativeLayout>
+
